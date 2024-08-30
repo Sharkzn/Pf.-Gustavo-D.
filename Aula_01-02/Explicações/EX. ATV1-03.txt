@@ -1,0 +1,15 @@
+Função tipo_triangulo(a, b, c):
+
+Verifica se as medidas fornecidas podem formar um triângulo com base na desigualdade triangular.
+Se as medidas formarem um triângulo, determina o tipo:
+Equilátero: Todos os lados iguais.
+Isósceles: Dois lados iguais.
+Escaleno: Todos os lados diferentes.
+Função main():
+
+Lê as medidas dos lados do triângulo a partir da entrada do usuário.
+Chama a função tipo_triangulo e exibe o resultado.
+Tratamento de Exceções:
+
+Usa try-except para garantir que o usuário forneça valores numéricos válidos.
+Para executar este código, você pode copiá-lo e colá-lo em um ambiente Python (como um IDE ou um notebook). Quando você rodar o programa, ele pedirá as medidas dos lados e exibirá o tipo do triângulo correspondente.

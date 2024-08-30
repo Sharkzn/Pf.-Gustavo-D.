@@ -1,0 +1,14 @@
+Função precisa_abastecer(km_por_litro, litros_atual, distancia_desejada):
+
+Calcula a quantidade de gasolina necessária para percorrer a distância desejada (litros_necessarios).
+Compara essa quantidade com a quantidade de gasolina disponível (litros_atual).
+Retorna um valor booleano indicando se é necessário abastecer e a quantidade de litros a ser abastecida, se necessário.
+Função main():
+
+Solicita ao usuário o número de quilômetros por litro, a quantidade atual de gasolina e a distância desejada.
+Usa a função precisa_abastecer para determinar se o abastecimento é necessário.
+Imprime a mensagem apropriada com base na necessidade de abastecimento.
+Bloco if __name__ == "__main__"::
+
+Garante que a função main() seja executada apenas quando o script é executado diretamente, e não quando importado como um módulo.
+Para usar o código, você pode copiá-lo em um arquivo com extensão .py e executá-lo com um interpretador Python. O programa solicitará as entradas e fornecerá uma recomendação sobre a necessidade de abastecimento.

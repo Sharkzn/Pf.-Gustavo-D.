@@ -1,0 +1,15 @@
+Função calcular_imc(peso, altura):
+
+Calcula o IMC usando a fórmula dada.
+Trata o caso em que a altura é zero para evitar divisão por zero.
+Função classificar_imc(imc):
+
+Classifica o IMC de acordo com a tabela de categorias (abaixo do peso, peso normal, sobrepeso, obesidade grau 1, 2 e 3).
+Função main():
+
+Solicita ao usuário que informe o peso e a altura.
+Calcula o IMC e exibe o valor e a classificação correspondente.
+Tratamento de Exceções:
+
+Usa try-except para garantir que o usuário forneça valores numéricos válidos.
+Para usar este código, você pode copiá-lo e colá-lo em um ambiente Python. Ao executar o programa, ele solicitará o peso e a altura, calculará o IMC e exibirá a classificação correspondente.

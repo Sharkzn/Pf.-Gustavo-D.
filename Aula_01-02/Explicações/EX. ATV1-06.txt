@@ -1,0 +1,12 @@
+Explicação do Programa:
+Função pode_doar_sangue():
+
+Pergunta sobre idade: Verifica se a idade está entre 19 e 69 anos. Se não estiver, exibe uma mensagem e encerra o programa.
+Pergunta sobre peso: Verifica se o peso é pelo menos 50 kg. Se não for, exibe uma mensagem e encerra o programa.
+Pergunta sobre tatuagens: Pergunta se o usuário fez tatuagem no último ano. Se a resposta for "sim", exibe uma mensagem e encerra o programa.
+Pergunta sobre ingestão de álcool: Pergunta se o usuário ingeriu álcool nas últimas 12 horas. Se a resposta for "sim", exibe uma mensagem e encerra o programa.
+Se todas as respostas atendem aos requisitos, o programa avisa que o usuário pode doar sangue.
+Bloco if __name__ == "__main__"::
+
+Garante que a função pode_doar_sangue seja executada apenas quando o script é executado diretamente.
+Para rodar o programa, cole o código em um arquivo .py e execute-o com um interpretador Python. O programa fará as perguntas e informará se o usuário pode ou não doar sangue.
